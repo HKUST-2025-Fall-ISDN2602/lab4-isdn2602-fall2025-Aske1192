@@ -13,6 +13,7 @@ lorem_img = imread('lorem_img.png');
 
 % run-length encode
 run_length_code = runlength_encode(lorem_img);
+
 % convert the binary array into an decimal array of run lengths
 runs = bin2decArray(run_length_code);
 
